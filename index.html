@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilocv.css">
+  <link rel="shortcut icon" type="image/x-icon" href="icono.ico">
+  <title>Mi currículum vitae</title>
+</head>
+<body>
+  <header>
+    <h1>Mi Currículum Vitae</h1>
+  </header>
+  <main>
+    <section class="datos-personales">
+      <h2>Información Personal</h2>
+      <ul>
+        <img src="foto.jpg" alt="Mi foto">
+        <li>Nombre completo: Carl Henderson</li>
+        <li>Correo electrónico: carl.henderson@example.com </li>
+        <li>Teléfono: (996) 210-1488 </li>
+        <li>Dirección: 7058 Northaven Rd</li>
+        <li>Edad: 29</li>
+      </ul>
+    </section>
+    <section class="informacion">
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li>
+          <h3>Nombre de la empresa: Generals Motors</h3>
+          <p><strong>Puesto: Operario</strong></p>
+          <p><strong>Año de inicio: 2015 - Fecha de egreso: actualmente en ese puesto</strong></p>
+        </li>
+        <li>
+          <h3>Nombre de la Empresa: Dryfus SRL</h3>
+          <p><strong>Puesto: Operario </strong></p>
+          <p><strong>Año de inicio: 2011 - Fecha de egreso: 2015</strong></p>
+          <button onclick="mostrarDatos()">Mostrar mas datos</button>
+            <div id="datos" style="display:none;">
+                <ul>
+                    <li>Descripcion del puesto en Generals Motors: En este puesto me desempeño calibrando las maquinas que cortan las autopartes</li>
+                    <li>Descripcion del puesto en Drysfus SRLs: Me desempeñe operando una pala mecanica que cargaba los barcos con granos</li>
+                </ul>
+            </div>
+        </li>
+      </ul>
+    </section>
+    <section class="informacion">
+      <h2>Educación</h2>
+      <ul>
+        <li>
+          <h3>Nombre de la institución: Tecnica N° 450 "Ejercito Argetino"</h3>
+          <p><strong>Título obtenido: Tecnico en equipos e instalaciones electromecanicas </strong></p>
+          <p><strong>Fecha de inicio: 2007 - Fecha de término: 2011</strong></p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script src="desplegable.js"></script>
+ 
+</body>
+</html>
